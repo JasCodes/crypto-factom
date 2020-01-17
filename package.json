@@ -1,0 +1,19 @@
+{
+  "name": "crypto-factom",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:jascodes/crypto-factom.git",
+  "author": "Jaspreet Singh <dev@jas.bio>",
+  "license": "MIT",
+  "scripts": {
+    "gen": "node generate_mnemonic.js",
+    "key": "node generate_key.js"
+  },
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "clipboardy": "^2.1.0",
+    "factom": "^1.2.8",
+    "factombip44": "^0.2.2",
+    "fs-extra": "^8.1.0"
+  }
+}
